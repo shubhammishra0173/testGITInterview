@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="70155" started-at="2019-10-05T18:21:48Z" finished-at="2019-10-05T18:22:58Z">
+  <suite name="Suite" duration-ms="33" started-at="2019-07-08T18:54:54Z" finished-at="2019-07-08T18:54:54Z">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@9711b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Validating User login" duration-ms="70155" started-at="2019-10-05T18:21:48Z" finished-at="2019-10-05T18:22:58Z">
-      <class name="cucumberOptions.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@9711b]" name="setUpClass" is-config="true" duration-ms="673" started-at="2019-10-05T11:21:48Z" finished-at="2019-10-05T11:21:48Z">
+    <test name="Test" duration-ms="33" started-at="2019-07-08T18:54:54Z" finished-at="2019-07-08T18:54:54Z">
+      <class name="qaclickacademy.AppiumTest">
+        <test-method status="PASS" signature="IOSApps()[pri:0, instance:qaclickacademy.AppiumTest@67b872]" name="IOSApps" duration-ms="0" started-at="2019-07-08T11:54:54Z" finished-at="2019-07-08T11:54:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@9711b]" name="feature" duration-ms="69225" started-at="2019-10-05T11:21:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-05T11:22:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Login into application]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- IOSApps -->
+        <test-method status="PASS" signature="NativeAPpAndroid()[pri:0, instance:qaclickacademy.AppiumTest@67b872]" name="NativeAPpAndroid" duration-ms="0" started-at="2019-07-08T11:54:54Z" finished-at="2019-07-08T11:54:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@9711b]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2019-10-05T11:22:58Z" finished-at="2019-10-05T11:22:58Z">
+        </test-method> <!-- NativeAPpAndroid -->
+      </class> <!-- qaclickacademy.AppiumTest -->
+      <class name="qaclickacademy.RESTAPITest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:qaclickacademy.RESTAPITest@1624da6]" name="deleteTwitter" duration-ms="1" started-at="2019-07-08T11:54:54Z" finished-at="2019-07-08T11:54:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumberOptions.TestRunner -->
-    </test> <!-- Validating User login -->
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:qaclickacademy.RESTAPITest@1624da6]" name="postJira" duration-ms="0" started-at="2019-07-08T11:54:54Z" finished-at="2019-07-08T11:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- qaclickacademy.RESTAPITest -->
+      <class name="qaclickacademy.SeleniumTest">
+        <test-method status="PASS" signature="BrowserAUtomation()[pri:0, instance:qaclickacademy.SeleniumTest@43840]" name="BrowserAUtomation" duration-ms="8" started-at="2019-07-08T11:54:54Z" finished-at="2019-07-08T11:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAUtomation -->
+        <test-method status="PASS" signature="elementsUi()[pri:0, instance:qaclickacademy.SeleniumTest@43840]" name="elementsUi" duration-ms="0" started-at="2019-07-08T11:54:54Z" finished-at="2019-07-08T11:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUi -->
+      </class> <!-- qaclickacademy.SeleniumTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
