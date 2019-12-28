@@ -1,0 +1,6 @@
+pageobjects\login.class
+pageobjects\portalhomepage.class
+resource\ExtentReporterNG.class
+Demaoutmaven\E2Eprojectcopy\App.class
+resource\Base.class
+pageobjects\registration.class
